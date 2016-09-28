@@ -11,15 +11,26 @@ p {
   line-height: 1.8rem;
 }
 
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  line-height: 1.8rem;
+}
+
 .content {
   background-color: #4a5867;
+  padding-left:10%;
 }
 
 .headerTop {
   font-family: 'Istok-Web', sans-serif;
   font-size:  5rem;
   color: #55a6dc;
-  padding-left:10%;
   padding-top:200px;
 }
 
@@ -34,4 +45,10 @@ p {
 
 .boldHeader {
   font-weight: 700;
+}
+
+.links {
+  font-weight: 'Lora', serif;
+  color: #FFFFFF;
+  padding-top: 40px;
 }
